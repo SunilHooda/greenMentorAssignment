@@ -6,6 +6,8 @@ import dropdown from "../Images/fe_drop-down.jpg";
 import bellIcon from "../Images/Vector.png";
 import mark from "../Images/mark.jpg";
 
+import BarChart from "./BarChart";
+
 const HomePage = () => {
   return (
     <div>
@@ -129,6 +131,11 @@ const HomePage = () => {
             <p className="count">143</p>
           </div>
         </div>
+      </div>
+
+      <div className="barChartContainer">
+        <p>Emission/Revenue</p>
+        <BarChart className="barChart" />
       </div>
     </div>
   );

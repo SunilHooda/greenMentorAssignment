@@ -291,3 +291,23 @@
   font-weight: 400;
   line-height: normal;
 }
+
+.barChartContainer {
+  margin-top: 30px;
+  width: 960px;
+  height: 540px;
+  margin-left: 20px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  box-shadow: 0px 0.599px 5.32px 0px rgba(0, 0, 0, 0.01),
+    0px 2.01px 17.869px 0px rgba(0, 0, 0, 0.01),
+    0px 9px 80px 0px rgba(0, 0, 0, 0.02);
+}
+
+.barChart {
+  width: 979px;
+  height: 458px;
+  flex-shrink: 0;
+}
